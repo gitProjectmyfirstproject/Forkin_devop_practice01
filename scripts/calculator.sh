@@ -38,5 +38,5 @@ case $ch in
         echo "Average of the numbers $a & $b is"
                 ;;
 esac
-echo "ANSWER : $ans"
+echo "ANSWER is : $ans"
 
