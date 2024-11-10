@@ -34,6 +34,9 @@ case $ch in
 	4)ans=$((a/b))
 	echo "Division of the numbers $a / $b is"
                 ;;
+	5)ans=$((a+b/2))
+	echo "Average of the numbers $a & $b is"
+		;;
 esac
 echo "ANSWER : $ans" 
 
