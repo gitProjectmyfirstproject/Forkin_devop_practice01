@@ -1,0 +1,3 @@
+#IGNORE *.temp files
+
+**/*.temp
