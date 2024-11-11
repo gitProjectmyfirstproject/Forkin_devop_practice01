@@ -17,6 +17,7 @@ echo "2. Subtraction"
 echo "3. Multiplication"
 echo "4. Division"
 echo "5. Average"
+echo "6. Percentage"
 read ch
 case $ch in
         1)ans=`awk "BEGIN {print ($a + $b)}"`
@@ -37,6 +38,9 @@ case $ch in
         5)ans=`awk "BEGIN {print ($a + $b)/2}"`
         echo "Average of the numbers $a & $b is"
                 ;;
+	6)ans=`awk "BEGIN {print ($a*$b/100)}"`
+	echo "$a Percent of $b is "
+		;;
 esac
 echo "ANSWER is : $ans"
 
